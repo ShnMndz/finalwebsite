@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taguig City University of the Philippines</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Red Theme Styling */
+        .navbar-dark.bg-dark {
+            background-color: #b30000 !important; /* Dark red for navbar */
+        }
+        .btn-primary {
+            background-color: #b30000; /* Red for buttons */
+            border-color: #b30000;
+        }
+        .btn-primary:hover {
+            background-color: #990000; /* Darker red on hover */
+            border-color: #990000;
+        }
+        .text-center h2 {
+            color: #b30000; /* Red for section titles */
+        }
+        .card-title {
+            color: #b30000; /* Red for card titles */
+        }
+        footer.bg-dark {
+            background-color: #b30000 !important; /* Red footer */
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="C:\Users\Admin\Desktop\elective1\images\Logo.jpg" alt="School of TCU Logo" width="40" height="40" class="d-inline-block align-text-top">
+                Taguig City University
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="programs.html">Programs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header>
+        <div id="headerCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <!-- First Image -->
+                <div class="carousel-item active">
+                    <img src="C:\Users\Admin\Desktop\elective1\images\Bbg.jpg" class="d-block w-100" alt="Image 1" style="height: 60vh; object-fit: cover;">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h1 class="display-4 text-danger fw-bold">Welcome to Taguig City University</h1>
+                        <p class="lead text-danger fw-bold">Empowering minds for a brighter future</p>
+                    </div>
+                </div>
+                <!-- Second Image -->
+                <div class="carousel-item">
+                    <img src="C:\Users\Admin\Desktop\elective1\images\Bg2.jpg" class="d-block w-100" alt="Image 2" style="height: 60vh; object-fit: cover;">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h1 class="display-4 text-danger fw-bold">Welcome to Taguig City University</h1>
+                        <p class="lead text-danger fw-bold">Empowering minds for a brighter future</p>
+                    </div>
+                </div>
+                <!-- Third Image -->
+                <div class="carousel-item">
+                    <img src="C:\Users\Admin\Desktop\elective1\images\Bg3.jpg" class="d-block w-100" alt="Image 3" style="height: 60vh; object-fit: cover;">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h1 class="display-4 text-danger fw-bold">Welcome to Taguig City University</h1>
+                        <p class="lead text-danger fw-bold">Empowering minds for a brighter future</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Carousel Controls -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#headerCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#headerCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </header>
+    
+    
+    
+
+    <!-- Featured Programs Section -->
+    <section class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Our Programs</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="C:\Users\Admin\Desktop\elective1\images\Prog1.jpg" class="card-img-top" alt="Art and Science">
+                        <div class="card-body">
+                            <h5 class="card-title">Art and Science</h5>
+                            <p class="card-text">Explore creativity and knowledge in our diverse Art and Science programs.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="C:\Users\Admin\Desktop\elective1\images\Prog2.jpg" class="card-img-top" alt="Business Management">
+                        <div class="card-body">
+                            <h5 class="card-title">Business Management</h5>
+                            <p class="card-text">Prepare to lead and excel in the business world with our expert faculty.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="C:\Users\Admin\Desktop\elective1\images\Prog3.jpg" class="card-img-top" alt="Criminal Justice">
+                        <div class="card-body">
+                            <h5 class="card-title">Criminal Justice</h5>
+                            <p class="card-text">Gain knowledge in law, criminology, and the justice system to make an impact.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Latest News Section -->
+    <section class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Latest News</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="C:\Users\Admin\Desktop\elective1\images\News1.jpg" class="card-img-top" alt="News 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Orientation Day 2024</h5>
+                            <p class="card-text">Join us for our annual orientation to welcome new students and parents!</p>
+                            <a href="https://tcu.edu.ph/freshmen-orientation-2024/" class="btn btn-primary">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="C:\Users\Admin\Desktop\elective1\images\News2.jpg" class="card-img-top" alt="News 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Student Empowerment Seminar 2024</h5>
+                            <p class="card-text">Dive into the latest tech innovations at our upcoming seminar in March.</p>
+                            <a href="https://tcu.edu.ph/student-empowerment-seminar/" class="btn btn-primary">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="C:\Users\Admin\Desktop\elective1\images\News3.jpg" class="card-img-top" alt="News 3">
+                        <div class="card-body">
+                            <h5 class="card-title">12th LCUAA National Games</h5>
+                            <p class="card-text">Taguig City University brings home the highest honor as the OVERALL CHAMPION during the recently concluded 12th LCUAA National Games</p>
+                            <a href="https://tcu.edu.ph/12th-lcuaa-national-games/" class="btn btn-primary">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Image Gallery Section -->
+    <section class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Gallery</h2>
+            <div class="row">
+                <div class="col-md-3">
+                    <img src="C:\Users\Admin\Desktop\elective1\images\Pic1.jpg" class="img-fluid rounded mb-3" alt="Gallery Image 1">
+                </div>
+                <div class="col-md-3">
+                    <img src="C:\Users\Admin\Desktop\elective1\images\Pic2.jpg" class="img-fluid rounded mb-3" alt="Gallery Image 2">
+                </div>
+                <div class="col-md-3">
+                    <img src="C:\Users\Admin\Desktop\elective1\images\Pic3.jpg" class="img-fluid rounded mb-3" alt="Gallery Image 3">
+                </div>
+                <div class="col-md-3">
+                    <img src="C:\Users\Admin\Desktop\elective1\images\Pic4.jpg" class="img-fluid rounded mb-3" alt="Gallery Image 4">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2024 Taguig City University. All Rights Reserved.</p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
